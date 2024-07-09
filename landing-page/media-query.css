@@ -1,4 +1,4 @@
-@media(max-width:1440px){
+@media(max-width:1464px) and (min-width:1020px){
     header .nav{
         margin: 10px 0 0 0;
     }
@@ -8,4 +8,143 @@
     .search {
         margin: 80px 70px 0 120px;
     }
+    .interface-img{
+        margin: 280px 0 200px 100px;
+    }
+    .partners{
+        margin: 0 200px 100px 500px;
+    }
+    .whatwedo{
+        margin: 0 200px 50px 630px;
+    }
+    .services p{
+        margin: 40px 0 0 45px;
+    }
+    .services ul li{
+        margin: 4px 40px;
+    }
+}
+/* Macbook */
+@media(max-width:1280px) and (min-width:1025px){
+    header .nav{
+        margin: 20px 0 0 0;
+    }
+    .nav-list ul li{
+
+        margin: 0 25px;
+    }
+    h1{
+        transform: translateX(30px);
+    }
+    .texts{
+        margin: 100px 20px 0 120px;
+    }
+    .texts :nth-child(1){
+        font-size: 45px;
+    }
+    .search{
+        margin: 80px 50px 0 80px;
+    }
+    input[type="text"]{
+        padding: 20px 120px;
+    }
+    .btn{
+        padding: 21px 90px;
+    }
+    .interface-img{
+        width: 250px;
+        height: 260px;
+        margin: 250px 0 200px 90px;
+    }
+    .interface1-img{
+        width: 800px;
+        height: 500px;
+    }
+    .partners{
+        margin: 0 200px 100px 400px;
+    }
+    .whatwedo{
+        margin: 0 200px 50px 530px;
+    }
+    .do{
+        margin: 50px 100px 100px 85px;
+    }
+    header .nav h1{
+     margin: 0px;
+    }
+    .services p{
+        margin: 40px 0 0 20px;
+    }
+    .services ul li{
+        margin: 4px 20px;
+    }
+    .component h1{
+        transform: translateX(-2px);
+      }
+}
+@media(max-width:1024px){
+    body{
+        width: 1140px;
+    }
+    header .nav{
+        margin: 20px 0 0 0;
+    }
+    .nav-list ul li{
+
+        margin: 0 15px;
+    }
+    h1{
+        transform: translateX(5px);
+    }
+    .texts{
+        margin: 100px 20px 0 100px;
+    }
+    .texts :nth-child(1){
+        font-size: 42px;
+    }
+    .search{
+        margin: 70px 50px 0 70px;
+    }
+    input[type="text"]{
+        padding: 20px 100px;
+        margin-right: -4px;
+    }
+    .btn{
+        padding: 21px 80px;
+    }
+    .location-icon{
+        margin: 15px 100px 0 400px;
+    }
+    .interface-img{
+        width: 200px;
+        height: 210px;
+        margin: 250px 0 200px 50px;
+    }
+    .interface1-img{
+        width: 800px;
+        height: 500px;
+    }
+    .partners{
+        margin: 0 200px 100px 360px;
+    }
+    .whatwedo{
+        margin: 0 200px 50px 490px;
+    }
+    .do{
+        margin: 50px 100px 100px 115px;
+    }
+    header .nav h1{
+     margin: 0px;
+    }
+    .services p{
+        margin: 40px 0 0 20px;
+    }
+    .services ul li{
+        margin: 4px 10px;
+        padding: 15px;
+        font-size: 12px;
+    }
+    .component h1{
+        transform: translateX(-2px);
+      }
 }

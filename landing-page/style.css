@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body{
+    height: max-content;
 }
 h1{
     font-size: 40px;
@@ -109,12 +110,12 @@ header ul {
     font-family: "sen", sans-serif;
 } 
 .search{
-    margin: 80px 70px 0 180px;
+    margin: 80px 70px 0 170px;
 }
 input[type="text"]{
     padding: 20px 140px;
     font-family: "sen", sans-serif;
-    margin-right: -5px;
+    margin-right: -4px;
     font-weight: bold;
     box-shadow: 0 0 10px rgba(39, 0, 212, 0.1); 
     border: 1px solid #ccc;
@@ -233,7 +234,6 @@ button:hover {
   }
   footer{
     border: 1px solid;
-    /* margin: 100px; */
     background-color: #1D1934;
     max-width: 50cm;
     display: flex;
