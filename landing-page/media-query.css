@@ -1,0 +1,11 @@
+@media(max-width:1440px){
+    header .nav{
+        margin: 10px 0 0 0;
+    }
+    .texts {
+        margin: 100px 130px 0 170px;
+    }
+    .search {
+        margin: 80px 70px 0 120px;
+    }
+}
